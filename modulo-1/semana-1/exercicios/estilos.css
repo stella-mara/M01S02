@@ -1,0 +1,82 @@
+
+body{
+    background-color: rgb(230, 175, 241);
+    min-height: 100vh;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+  padding: 0 20px 40px;
+  flex-grow: 1;
+}
+
+h1.titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    color: rgb(243, 230, 247);
+    text-align: center;
+    background-image: url(imagem/ceu.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(219, 107, 241); 
+    background-position: center center;
+}
+/*Como colocar sem repetição*/
+p.paragrafo01{
+    font-size: 14pt;
+}
+
+button{
+    border-radius: 20%;
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 40px;
+  padding: 0 10px;
+  background-color: rgb(231, 20, 250);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img#logo {
+  display: block;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li a{
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  transition: all 300ms;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: rgb(250, 7, 209);
+}
+
+footer{
+  background-color: rgb(231, 20, 250);
+  color: white;
+  text-align: center;
+}
+

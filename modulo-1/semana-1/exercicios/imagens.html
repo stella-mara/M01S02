@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        .row { 
+            display: flex;
+        }
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+    </style>
+    <title>Imagens</title>
+</head>
+<body>
+<h1 class="titulo">Imagens</h1>
+<div class="row">
+        <div class="column">
+            <p>Imagem salva no mesmo diretório dos arquivos .html.</p>
+            <img src="imagem/imagem-01.jpg" alt="Imagem01"></div>
+   
+        <div class="column">
+            <p>Imagem salva em um diretório diferente (mas dentro do diretório onde se encontram os arquivos .html.</p>
+            <img src="../../imagens/imagem.JPG" alt="Imagem02"></div>
+
+        <div class="column">
+            <p>Imagem salva em servido na internet (URL)</p>
+            <img src="https://images.pexels.com/photos/3197556/pexels-photo-3197556.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Imagem03"></div>
+</div>
+<!--imagem horizontal 
+div#imagens {
+  width: 100%;
+  display: flex;
+}
+
+div#imagens img {
+  width: calc(100% / 3);
+  display: block;
+}-->
+<footer>
+    <p>Página HTML feito por Stella Mara Wendt</p>
+</footer>
+</body>
+</html>
